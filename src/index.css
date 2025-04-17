@@ -54,6 +54,16 @@ span[role="image"] {
   border-radius: 10px;
 }
 
+.App.light {
+  background-color: white;
+  color: black;
+}
+
+.App.dark {
+  background-color: black;
+  color: white;
+}
+
 header {
   display: flex;
   justify-content: space-between;
@@ -110,4 +120,9 @@ header button {
   justify-self: end;
   color: var(--font-color-light);
   font-size: 0.8em;
+}
+
+.in-cart {
+  text-decoration: line-through;
+  color: gray;
 }
